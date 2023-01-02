@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "IUNI",
+  "description": "IUNI Chrome Extension",
+  "version": "1.0",
+  "icons" :{
+    "16" : "/icons/iuni.png",
+    "48" : "/icons/iuni.png",
+    "64" : "/icons/iuni.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
