@@ -1,5 +1,3 @@
 document.getElementById('submit').onclick = function(){
-    console.log("inside this..")
-    var username = document.getElementById('username').value;
-    document.getElementById('greet').innerHTML = 'Hello ' + username;
+    document.getElementById('clickhere').innerHTML = `<a href="https://iuni.iu.edu/" target="_blank"> <button style="background-color: blue; color: aliceblue; border-radius: 5px; border-color: blue;">Click Here</button></a>`
 }
